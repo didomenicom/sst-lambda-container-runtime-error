@@ -1,0 +1,63 @@
+# Yarn PnP Ignore - We are not going to use PnP yet, so ignore it all
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Node / NPM / Yarn Common
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.tsbuildinfo
+jspm_packages/
+
+# TypeScript v1 declaration files
+typings/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+.npmrc
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Serverless Stack / CDK
+.build/
+.sst/
+cdk.context.json
+
+# Python
+__pycache__
+
+# Serverless directories
+.serverless/
+
+# Windows OS
+Thumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Mac OS
+.DS_Store
+Icon^M
+._*
+
+# Logs
+/logs
+/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Misc
+.env.local
+.env.test

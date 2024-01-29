@@ -1,0 +1,9 @@
+pillow
+psutil
+opencv-python
+torchvision
+ultralytics
+boto3
+gunicorn
+flask
+ksuid

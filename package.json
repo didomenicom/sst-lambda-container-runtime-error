@@ -1,0 +1,29 @@
+{
+	"name": "sst-lambda-container-runtime-error",
+	"version": "0.0.1",
+	"description": "",
+	"repository": "git@github.com:didomenicom/sst-lambda-container-runtime-error.git",
+	"license": "UNLICENSED",
+	"private": true,
+	"type": "module",
+	"packageManager": "pnpm@8.6.3",
+	"engines": {
+		"node": "^18"
+	},
+	"workspaces": [
+		"services/**/*"
+	],
+	"scripts": {
+		"deploy-aws": "sst deploy --stage dev --region us-east-1"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"@tsconfig/node18": "^18.2.2",
+		"@types/aws-lambda": "^8.10.121",
+		"@types/node": "^20.8.8",
+		"aws-cdk-lib": "2.110.1",
+		"constructs": "10.3.0",
+		"sst": "2.36.7",
+		"typescript": "5.2.2"
+	}
+}
